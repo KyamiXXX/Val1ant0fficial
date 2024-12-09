@@ -12,7 +12,7 @@ local Window = Rayfield:CreateWindow({
         FileName = "valientXzKeysystem",
         SaveKey = false,
         GrabKeyFromSite = true,
-        Key = {"https://pastebin.com/raw/JXh4Pj26"}
+        Key = {"https://pastebin.com/raw/JXh4Pj26", "https://pastebin.com/raw/zNhEvEe7"}
     }
 })
 
