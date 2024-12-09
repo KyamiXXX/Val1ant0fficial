@@ -72,24 +72,24 @@ MainTab:CreateButton({
 MainTab:CreateSection("Triggerbot")
 MainTab:CreateSection("Silent")
 
-local RageTab = Window:CreateTab("Rage", nil)
+local Tab = Window:CreateTab("Rage", nil)
 MainTab:CreateSection("Fun Features")
 
-RageTab:CreateButton({
+Tab:CreateButton({
     Name = "SPEED/FLY",
     Callback = function()
         loadstring(game:HttpGet("https://pastebin.com/raw/h5S8VLQh"))()
     end
 })
 
-RageTab:CreateButton({
+Tab:CreateButton({
     Name = "Bullet TP",
     Callback = function()
         loadstring(game:HttpGet("https://pastebin.com/raw/2gTANHNy"))()
     end
 })
 
-RageTab:CreateButton({
+Tab:CreateButton({
     Name = "Orbit",
     Callback = function()
         loadstring(game:HttpGet("https://pastebin.com/raw/h5S8VLQh"))()
