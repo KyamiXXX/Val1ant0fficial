@@ -83,9 +83,16 @@ Tab:CreateButton({
 })
 
 Tab:CreateButton({
-    Name = "Bullet TP",
+    Name = "BulletTPV1",
     Callback = function()
         loadstring(game:HttpGet("https://pastebin.com/raw/2gTANHNy"))()
+    end
+})
+
+Tab:CreateButton({
+    Name = "BulletTPV2",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/V4ZmxCXt"))()
     end
 })
 
