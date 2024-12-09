@@ -73,7 +73,7 @@ MainTab:CreateSection("Triggerbot")
 MainTab:CreateSection("Silent")
 
 local Tab = Window:CreateTab("Rage", nil)
-MainTab:CreateSection("Fun Features")
+Tab:CreateSection("Fun Features")
 
 Tab:CreateButton({
     Name = "SPEED/FLY",
