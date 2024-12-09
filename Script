@@ -1,107 +1,93 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
- 
+
 local Window = Rayfield:CreateWindow({
-   Name = "VALIANT SCRIPT - BETA",
-   LoadingTitle = "TOP 1 DH SCRIPT",
-   LoadingSubtitle = "by Valiant",
-   ConfigurationSaving = {
-      Enabled = false,
-      FolderName = nil, -- Create a custom folder for your hub/game
-      FileName = "Example Hub"
-   },
-   Discord = {
-      Enabled = false,
-      Invite = "noinvitelink", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD
-      RememberJoins = true -- Set this to false to make them join the discord every time they load it up
-   },
-   KeySystem = true, -- Set this to true to use our key system
-   KeySettings = {
-      Title = "Key | Valiant Hub",
-      Subtitle = "Key System",
-      Note = "Key In Discord Server",
-      FileName = "valientXzKeysystem", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
-      SaveKey = false, -- The user's key will be saved, but if you change the key, they will be unable to use your script
-      GrabKeyFromSite = true, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
-      Key = {"https://pastebin.com/raw/JXh4Pj26"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
-   }
+    Name = "VALIANT SCRIPT - BETA",
+    LoadingTitle = "TOP 1 DH SCRIPT",
+    LoadingSubtitle = "by Valiant",
+    KeySystem = true,
+    KeySettings = {
+        Title = "Key | Valiant Hub",
+        Subtitle = "Key System",
+        Note = "Key In Discord Server",
+        FileName = "valientXzKeysystem",
+        SaveKey = false,
+        GrabKeyFromSite = true,
+        Key = {"https://pastebin.com/raw/JXh4Pj26"}
+    }
 })
- 
-local MainTab = Window:CreateTab("Home", nil) -- Title, Image
-local MainSection = MainTab:CreateSection("Locks")
- 
+
+local MainTab = Window:CreateTab("Home", nil)
+MainTab:CreateSection("Locks")
+
 Rayfield:Notify({
-   Title = "You executed the script",
-   Content = "Very cool gui",
-   Duration = 5,
-   Image = 13047715178,
-   Actions = { -- Notification Buttons
-      Ignore = {
-         Name = "Okay!",
-         Callback = function()
-         print("The user tapped Okay!") 
-      end
-   },
-},
+    Title = "You executed the script",
+    Content = "Very cool GUI",
+    Duration = 5,
+    Image = 13047715178,
+    Actions = {
+        Ignore = {
+            Name = "Okay!",
+            Callback = function()
+                print("The user tapped Okay!")
+            end
+        }
+    }
 })
- 
-local Button = MainTab:CreateButton({
+
+MainTab:CreateButton({
     Name = "LegitCamLock",
     Callback = function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/1PNtrb0u"))()     
-    end,
- })
- 
- local Button = MainTab:CreateButton({
+        loadstring(game:HttpGet("https://pastebin.com/raw/1PNtrb0u"))()
+    end
+})
+
+MainTab:CreateButton({
     Name = "SemiLegitCamLock",
     Callback = function()
         loadstring(game:HttpGet("https://pastebin.com/raw/Z1RYfiN2"))()
-    end,
- })
- 
- local Button = MainTab:CreateButton({
+    end
+})
+
+MainTab:CreateButton({
     Name = "AntiLock",
     Callback = function()
         loadstring(game:HttpGet("https://pastebin.com/raw/UiAJSbrP"))()
-    end,
- })
- 
- local Button = MainTab:CreateButton({
+    end
+})
+
+MainTab:CreateButton({
     Name = "Aimviewer",
     Callback = function()
-     loadstring(game:HttpGet("loadstring(game:HttpGet('https://raw.githubusercontent.com/wenny69420/KirbswareScripts/main/MobileV3'))()
-    end,
- })
- 
-local Button = MainTab:CreateButton({
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/wenny69420/KirbswareScripts/main/MobileV3'))()
+    end
+})
+
+MainTab:CreateButton({
     Name = "Resolver",
     Callback = function()
-     loadstring(game:HttpGet("https://raw.githubusercontent.com/FeliciaXxxTop/FuckRoblox/main/ResolverV1.lua"))();'))()
-    end,
- })
- 
- local MainSection = MainTab:CreateSection("Triggerbot")
- 
-local MainSection = MainTab:CreateSection("Silent")
- 
-local MainSection = MainTab:CreateSection("Cframe")
-local Button = MainTab:CreateButton({
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/FeliciaXxxTop/FuckRoblox/main/ResolverV1.lua'))()
+    end
+})
+
+MainTab:CreateSection("Triggerbot")
+MainTab:CreateSection("Silent")
+MainTab:CreateSection("Cframe")
+
+MainTab:CreateButton({
     Name = "Macro",
     Callback = function()
         loadstring(game:HttpGet("https://pastebin.com/raw/h5S8VLQh"))()
-    end,
- })
- 
-local MainTab = Window:CreateTab("Rage", nil) -- Title, Image
-local MainSection = MainTab:CreateSection("Features")
- 
-local MiscTab = Window:CreateTab("Miscallanious", nil) -- Title, Image
- 
-local Button = MiscTab:CreateButton({
+    end
+})
+
+local MiscTab = Window:CreateTab("Miscellaneous", nil)
+MiscTab:CreateButton({
     Name = "Rejoin",
     Callback = function()
         loadstring(game:HttpGet("https://pastebin.com/raw/f6ExuCB0"))()
-    end,
- })
+    end
+})
+
  
  
  
