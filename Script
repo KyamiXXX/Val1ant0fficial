@@ -35,21 +35,21 @@ Rayfield:Notify({
 })
 
 MainTab:CreateButton({
-    Name = "LegitCamLock",
+    Name = "LegitCamLock (E)",
     Callback = function()
         loadstring(game:HttpGet("https://pastebin.com/raw/1PNtrb0u"))()
     end
 })
 
 MainTab:CreateButton({
-    Name = "SemiLegitCamLock",
+    Name = "SemiLegitCamLock (E)",
     Callback = function()
         loadstring(game:HttpGet("https://pastebin.com/raw/Z1RYfiN2"))()
     end
 })
 
 MainTab:CreateButton({
-    Name = "AntiLock",
+    Name = "AntiLock (C)",
     Callback = function()
         loadstring(game:HttpGet("https://pastebin.com/raw/UiAJSbrP"))()
     end
@@ -83,23 +83,23 @@ Tab:CreateButton({
 })
 
 Tab:CreateButton({
-    Name = "BulletTPV1",
+    Name = "BulletTPV1 (V)",
     Callback = function()
         loadstring(game:HttpGet("https://pastebin.com/raw/2gTANHNy"))()
     end
 })
 
 Tab:CreateButton({
-    Name = "BulletTPV2",
+    Name = "BulletTPV2 (V)",
     Callback = function()
         loadstring(game:HttpGet("https://pastebin.com/raw/V4ZmxCXt"))()
     end
 })
 
 Tab:CreateButton({
-    Name = "Orbit",
+    Name = "Orbit (B)",
     Callback = function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/h5S8VLQh"))()
+        loadstring(game:HttpGet("https://pastebin.com/raw/7R220yUA"))()
     end
 })
 
