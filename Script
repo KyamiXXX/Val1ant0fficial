@@ -56,21 +56,21 @@ MainTab:CreateButton({
 })
 
 MainTab:CreateButton({
-    Name = "Aimviewer",
+    Name = "Aimviewer (F)",
     Callback = function()
         loadstring(game:HttpGet('https://pastebin.com/raw/pP5PWaUF'))()
     end
 })
 
 MainTab:CreateButton({
-    Name = "Resolver",
+    Name = "Resolver (C)",
     Callback = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/FeliciaXxxTop/FuckRoblox/main/ResolverV1.lua'))()
     end
 })
 
 MainTab:CreateButton({
-    Name = "TriggerbotV1",
+    Name = "TriggerbotV1 (T)",
     Callback = function()
         loadstring(game:HttpGet('https://pastebin.com/raw/HAmjd7F6'))()
     end
@@ -79,7 +79,7 @@ MainTab:CreateButton({
 MainTab:CreateButton({
     Name = "SilentAim",
     Callback = function()
-        loadstring(game:HttpGet('https://pastebin.com/raw/HAmjd7F6'))()
+        loadstring(game:HttpGet('https://pastebin.com/raw/RLncbVPX'))()
     end
 })
 
