@@ -58,7 +58,7 @@ MainTab:CreateButton({
 MainTab:CreateButton({
     Name = "Aimviewer",
     Callback = function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/wenny69420/KirbswareScripts/main/MobileV3'))()
+        loadstring(game:HttpGet('https://pastebin.com/raw/pP5PWaUF'))()
     end
 })
 
