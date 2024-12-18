@@ -35,16 +35,16 @@ Rayfield:Notify({
 })
 
 MainTab:CreateButton({
-    Name = "LegitCamLock (E)",
+    Name = "LegitCamLockV1 (E)",
     Callback = function()
         loadstring(game:HttpGet("https://pastebin.com/raw/1PNtrb0u"))()
     end
 })
 
 MainTab:CreateButton({
-    Name = "SemiLegitCamLock (E)",
+    Name = "LegitCamLockV2 (E)",
     Callback = function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/Z1RYfiN2"))()
+        loadstring(game:HttpGet("https://pastebin.com/raw/Q8wfwGG8"))()
     end
 })
 
